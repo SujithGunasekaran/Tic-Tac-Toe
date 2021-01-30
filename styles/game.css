@@ -1,0 +1,70 @@
+.game-container
+{
+    margin : 15px 0px;
+    width : 100%;
+}
+.game-heading
+{
+    color : #61dafb;
+    font-size: 1.4rem;
+    text-align: center;
+    letter-spacing: .050rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s all ease-in-out;
+}
+.game-player-name
+{
+    padding : 20px 0px 0px;
+    color : #ced2d3;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: .020rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s all ease-in-out;
+}
+.game-x-container
+{
+    margin : 40px 5px;
+}
+.game-x-btn-one
+{
+    margin : 5px;
+    border : none;
+    background-color: #0d1117;
+    width : 100%;
+    height : 100px;
+    color : #61dafb;
+    border-radius: 10px;
+    font-size: 2.7rem;
+    border : 1px solid rgb(75, 73, 73);
+    transition: 0.4s all ease-in-out;
+}
+.game-x-btn-one.playerOne
+{
+    border : 1px solid #61dafb;
+    color : #61dafb !important;
+}
+.game-x-btn-one.playerOne:hover
+{
+    border : 1px solid #61dafb;
+}
+.game-x-btn-one.playerTwo
+{
+    border : 1px solid #e02029;
+    color : #e02029 !important;
+}
+.game-x-btn-one.playerTwo:hover
+{
+    border : 1px solid #e02029;
+}
+.game-x-btn-one:hover
+{
+    border : 1px solid #61dafb;
+}
+.game-x-btn-one:focus
+{
+    outline : none;
+}
